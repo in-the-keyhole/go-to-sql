@@ -1,5 +1,6 @@
 # go-to-sql
 Accompanying the Go to SQL blog blog.
+
 To run:
  For Main-sqlDriver you'll need to create a postgres database named Customer w/ an id and name column.
  Replace connStr w/ your username and password
