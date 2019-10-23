@@ -22,7 +22,7 @@ func doOrmStuff() {
 	db := pg.Connect(&pg.Options{
 		User:     "postgres",
 		Database: "Customer",
-		Password: "viXLbzKq3seyOROsmirW",
+		Password: "yourPassword",
 	})
 	createSchema(db)
 	if !doCustomersExist(db) {

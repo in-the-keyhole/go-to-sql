@@ -20,7 +20,7 @@ func main() {
 }
 
 func doSqlDriverStuff() {
-	connStr := "user=postgres dbname=Customer password=viXLbzKq3seyOROsmirW sslmode=disable"
+	connStr := "user=yourUser dbname=Customer password=yourPassword sslmode=disable"
 	db, err := sql.Open("postgres", connStr)
 	if err != nil {
 		log.Fatal(err)
